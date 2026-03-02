@@ -1,21 +1,7 @@
 {
-  "name": "serenity-bank-bot",
-  "version": "1.0.0",
-  "description": "Discord Bank Bot with Canvas UI",
-  "main": "index.ts",
-  "scripts": {
-    "start": "ts-node index.ts",
-    "build": "tsc",
-    "watch": "tsc -w"
-  },
   "dependencies": {
-    "canvas": "^2.11.2",
+    "skia-canvas": "^1.0.1",
     "discord.js": "^14.14.1",
     "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "@types/node": "^20.11.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
   }
 }
